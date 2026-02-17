@@ -1,0 +1,37 @@
+# --- Это системный мусор PyCharm (нам он не нужен) ---
+.idea/
+venv/
+__pycache__/
+*.pyc
+
+# --- Твои личные черновики и тесты ---
+# Впиши сюда названия файлов, которые НЕ НУЖНО заливать
+WB_Parser2.py
+WB_Parser3.py7527
+Crypto_Parser.py
+Habr_Deep_Parser.py
+Habr_Parser.py
+Books_Full_Parser.py
+Books_Parser.py
+Final_Parser.py
+Full_parser2.py
+full_parser.py
+pagination_test.py
+internet_test.py
+soup_test2.py
+soup_test.py
+agency_list.py
+agency_loop.py
+kwork_bot.py
+freedom_calc.py
+PLAN.txt
+wb_test_data.py
+test.py
+draft.py
+error.png
+wb_proof.png
+.env
+
+# --- Секретные данные (ОБЯЗАТЕЛЬНО!) ---
+# Если бы мы делали по-взрослому, токен тоже надо прятать.
+# Но пока для первого раза оставим в коде.

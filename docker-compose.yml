@@ -1,0 +1,11 @@
+services:
+  bot:
+    build: .
+    container_name: wb_auto_promo
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./data.xlsx:/app/data.xlsx
+      # Если твоя база называется по-другому, просто поправь имя слева от двоеточия
+      - ./database.db:/app/database.db
